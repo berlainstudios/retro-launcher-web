@@ -1,9 +1,6 @@
 # Node modules (always ignore)
 node_modules/
 
-# Generated CSS file (if it's built from input.css)
-src/output.css
-
 # OS files
 .DS_Store
 Thumbs.db

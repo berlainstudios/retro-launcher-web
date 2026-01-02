@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: "PixelifySans";
-    src: url('/font/pixelify-sans.woff2') format('woff2');
+    src: url('../font/pixelify-sans.woff2') format('woff2');
     font-weight: 200 300 400 500 700;
     font-style: normal;
     font-display: swap;
@@ -22,7 +22,7 @@
 
 @font-face {
     font-family: "Inter";
-    src: url('/font/inter.woff2') format('woff2');
+    src: url('../font/inter.woff2') format('woff2');
     font-weight: 100 200 300 400 700;
     font-style: normal;
     font-display: swap;

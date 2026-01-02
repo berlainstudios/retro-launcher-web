@@ -8,9 +8,21 @@
     <link rel="preload" href="../font/pixelify-sans.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="../font/inter.woff2" as="font" type="font/woff2" crossorigin>
     <link href="./src/output.css" rel="stylesheet">
+    <style>
+      * { 
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        max-width: 100%;
+      }
+      html, body {
+        overflow-x: hidden;
+        max-width: 100vw;
+      }
+    </style>
 </head>
 <body class="pt-16 md:pt-20 overflow-x-hidden">
-<nav class="bg-black fixed w-full z-20 top-0 start-0 border-b border-default">
+<nav class="bg-black fixed w-full z-20 top-0 start-0 border-b border-default overflow-x-hidden">
   <div class="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4 px-4 md:px-6">
     <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="./img/retro_launcher_icon_white.svg" class="h-7"/>
@@ -33,7 +45,7 @@
     </div>
   </div>
 </nav>
-<div class="max-w-7xl font-inter mx-auto p-4 md:p-6 mt-20 space-y-8">
+<div class="max-w-7xl font-inter mx-auto p-4 md:p-6 mt-20 space-y-8 overflow-x-hidden">
   <!-- Title -->
   <header class="text-left">
     <h1 class="text-5xl font-semibold mb-4">Privacy Policy</h1>
@@ -41,7 +53,7 @@
   </header>
   
   <!-- Content sections -->
-  <section class="space-y-6">
+  <section class="space-y-6 overflow-x-hidden break-words">
 
     <h2 class="text-2xl font-bold">Information We Collect</h2>
     <h3 class="text-2xl font-semibold">A. Information You Provide (Optional)</h2>
